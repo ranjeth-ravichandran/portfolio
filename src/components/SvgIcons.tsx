@@ -118,7 +118,7 @@ export const PythonIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ }) => {
 };
 
 // SVG icon for Java
-export const JavaIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ color }) => {
+export const JavaIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ }) => {
     return (
 
         <svg width="40px" height="40px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -135,7 +135,7 @@ export const JavaIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ color }) => 
 };
 
 // SVG icon for SQL
-export const SqlIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ color }) => {
+export const SqlIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ }) => {
     return (
 
         <svg fill="limegreen" xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 548.29 548.291">
