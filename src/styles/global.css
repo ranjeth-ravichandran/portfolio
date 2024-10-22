@@ -473,8 +473,7 @@ footer {
 /* ABOUT PAGE*/
 
 .about-page-container {
-  width: 80vw;
-
+  max-width: 1366px;
   display: grid;
   grid-auto-columns: auto;
   grid-template-columns: auto;
