@@ -77,7 +77,7 @@ export const ResumeIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ color, ...
 };
 
 // SVG icon for Javascript
-export const JavascriptIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ color, ...props }) => {
+export const JavascriptIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ color }) => {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" aria-label="JavaScript" role="img" viewBox="0 0 512 512">
             <rect width="512" height="512" rx="15%" fill={color} />
@@ -87,7 +87,7 @@ export const JavascriptIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ color,
 };
 
 // SVG icon for React
-export const ReactIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ color, ...props }) => {
+export const ReactIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ color }) => {
     return (
 
         <svg width="40px" height="40px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -98,7 +98,7 @@ export const ReactIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ color, ...p
 };
 
 // SVG icon for Python
-export const PythonIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ color, ...props }) => {
+export const PythonIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ }) => {
     return (
         <svg width="40px" height="40px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fillRule="evenodd" clipRule="evenodd" d="M13.0164 2C10.8193 2 9.03825 3.72453 9.03825 5.85185V8.51852H15.9235V9.25926H5.97814C3.78107 9.25926 2 10.9838 2 13.1111L2 18.8889C2 21.0162 3.78107 22.7407 5.97814 22.7407H8.27322V19.4815C8.27322 17.3542 10.0543 15.6296 12.2514 15.6296H19.5956C21.4547 15.6296 22.9617 14.1704 22.9617 12.3704V5.85185C22.9617 3.72453 21.1807 2 18.9836 2H13.0164ZM12.0984 6.74074C12.8589 6.74074 13.4754 6.14378 13.4754 5.40741C13.4754 4.67103 12.8589 4.07407 12.0984 4.07407C11.3378 4.07407 10.7213 4.67103 10.7213 5.40741C10.7213 6.14378 11.3378 6.74074 12.0984 6.74074Z" fill="url(#paint0_linear_87_8204)" />
@@ -118,7 +118,7 @@ export const PythonIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ color, ...
 };
 
 // SVG icon for Java
-export const JavaIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ color, ...props }) => {
+export const JavaIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ color }) => {
     return (
 
         <svg width="40px" height="40px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -135,7 +135,7 @@ export const JavaIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ color, ...pr
 };
 
 // SVG icon for SQL
-export const SqlIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ color, ...props }) => {
+export const SqlIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ color }) => {
     return (
 
         <svg fill="limegreen" xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 548.29 548.291">
@@ -166,7 +166,7 @@ export const SqlIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ color, ...pro
 };
 
 // SVG icon for C
-export const CIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ color, ...props }) => {
+export const CIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ }) => {
     return (
         <svg viewBox="0 0 38.000089 42.000031" width="40px" height="40px">
             <path
@@ -199,7 +199,7 @@ export const CIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ color, ...props
 
 
 // SVG icon for Git
-export const GitIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ color, ...props }) => {
+export const GitIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ }) => {
     return (
         <svg width="40px" height="40px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M2.58536 17.4132C1.80488 16.6327 1.80488 15.3673 2.58536 14.5868L14.5868 2.58536C15.3673 1.80488 16.6327 1.80488 17.4132 2.58536L29.4146 14.5868C30.1951 15.3673 30.1951 16.6327 29.4146 17.4132L17.4132 29.4146C16.6327 30.1951 15.3673 30.1951 14.5868 29.4146L2.58536 17.4132Z" fill="#EE513B" />
@@ -231,7 +231,7 @@ export const EmailIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ color, ...p
 };
 
 // SVG icon for Home
-export const HomeIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ color, ...props }) => {
+export const HomeIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ color }) => {
     return (
         <svg className="svg-icon home-svg" width="800px" height="800px" viewBox="0 0 24 24" fill="none">
             <path d="M9 21.0002V13.6002C9 13.0402 9 12.7601 9.10899 12.5462C9.20487 12.3581 9.35785 12.2051 9.54601 12.1092C9.75992 12.0002 10.0399 12.0002 10.6 12.0002H13.4C13.9601 12.0002 14.2401 12.0002 14.454 12.1092C14.6422 12.2051 14.7951 12.3581 14.891 12.5462C15 12.7601 15 13.0402 15 13.6002V21.0002M11.0177 2.76424L4.23539 8.03937C3.78202 8.39199 3.55534 8.5683 3.39203 8.7891C3.24737 8.98469 3.1396 9.20503 3.07403 9.4393C3 9.70376 3 9.99094 3 10.5653V17.8002C3 18.9203 3 19.4804 3.21799 19.9082C3.40973 20.2845 3.71569 20.5905 4.09202 20.7822C4.51984 21.0002 5.07989 21.0002 6.2 21.0002H17.8C18.9201 21.0002 19.4802 21.0002 19.908 20.7822C20.2843 20.5905 20.5903 20.2845 20.782 19.9082C21 19.4804 21 18.9203 21 17.8002V10.5653C21 9.99094 21 9.70376 20.926 9.4393C20.8604 9.20503 20.7526 8.98469 20.608 8.7891C20.4447 8.5683 20.218 8.39199 19.7646 8.03937L12.9823 2.76424C12.631 2.49099 12.4553 2.35436 12.2613 2.30184C12.0902 2.2555 11.9098 2.2555 11.7387 2.30184C11.5447 2.35436 11.369 2.49099 11.0177 2.76424Z" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -240,7 +240,7 @@ export const HomeIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ color, ...pr
 };
 
 // SVG icon for Image
-export const ImageIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ color, onClick, ...props }) => {
+export const ImageIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ color, onClick }) => {
     return (
         <svg className="svg-icon" onClick={onClick} width="800px" height="800px" viewBox="0 0 24 24" fill="none">
             <path fillRule="evenodd" clipRule="evenodd" d="M23 4C23 2.34315 21.6569 1 20 1H4C2.34315 1 1 2.34315 1 4V20C1 21.6569 2.34315 23 4 23H20C21.6569 23 23 21.6569 23 20V4ZM21 4C21 3.44772 20.5523 3 20 3H4C3.44772 3 3 3.44772 3 4V20C3 20.5523 3.44772 21 4 21H20C20.5523 21 21 20.5523 21 20V4Z" fill={color} />

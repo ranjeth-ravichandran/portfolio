@@ -1,4 +1,4 @@
-import { CIcon, EmailIcon, GitHubIcon, GitIcon, ImageIcon, JavaIcon, JavascriptIcon, LinkedInIcon, PythonIcon, ReactIcon, ResumeIcon, SqlIcon } from "@/components/SvgIcons";
+import { ImageIcon } from "@/components/SvgIcons";
 import { motion, AnimatePresence, Variants } from "framer-motion";  // Import Framer Motion
 import Image from "next/image";
 import { useState } from "react";

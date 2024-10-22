@@ -1,6 +1,4 @@
 // pages/_app.tsx
-import Link from 'next/link';
-import Image from "next/image";
 import '../styles/global.css';
 import type { AppProps } from 'next/app';
 

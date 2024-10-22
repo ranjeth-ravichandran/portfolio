@@ -1,5 +1,5 @@
-import { CIcon, EmailIcon, GitHubIcon, GitIcon, ImageIcon, JavaIcon, JavascriptIcon, LinkedInIcon, PythonIcon, ReactIcon, ResumeIcon, SqlIcon } from "@/components/SvgIcons";
-import { motion, AnimatePresence, Variants } from "framer-motion";  // Import Framer Motion
+import { EmailIcon, GitHubIcon, LinkedInIcon, ResumeIcon } from "@/components/SvgIcons";
+import { motion, Variants } from "framer-motion";  // Import Framer Motion
 
 // Define the type of the props the child component expects
 interface FooterContainerProps {
