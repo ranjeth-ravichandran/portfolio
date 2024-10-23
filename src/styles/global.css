@@ -440,6 +440,15 @@ footer {
     flex-direction: column;
     gap: 20px;
   }
+
+  .collage-content {
+    padding: 10px;
+  }
+
+  .collage-images {
+    height: 60vh;
+    overflow-y: scroll;
+  }
 }
 
 /* ----------------------------------------------------- */
