@@ -60,7 +60,7 @@ export const HomeContainer: React.FC<HomeContainerProps> = ({ framerMotion }) =>
                 </div>
                 <div id="links-container">
                     <a
-                        href={"/resume.pdf"}
+                        href={`${basePath}/resume.pdf`}
                         download="Ranjeth Ravichandran Resume.pdf"
                     >
                         <ResumeIcon color="#fff" />

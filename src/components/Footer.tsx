@@ -6,6 +6,9 @@ interface FooterContainerProps {
     framerMotion: Variants;  // Define that framer is a Variants object
 }
 
+import getConfig from 'next/config';
+const { publicRuntimeConfig } = getConfig();
+const { basePath } = publicRuntimeConfig;
 
 export const FooterContainer: React.FC<FooterContainerProps> = ({ framerMotion }) => {
     return (
@@ -32,7 +35,7 @@ export const FooterContainer: React.FC<FooterContainerProps> = ({ framerMotion }
                 <div className="footer-resume">
                     <h1>Resume</h1>
                     <a
-                        href={"/resume.pdf"}
+                        href={`${basePath}/resume.pdf`}
                         download="Ranjeth Ravichandran Resume.pdf"
                     >
                         <ResumeIcon color="#fff" />
