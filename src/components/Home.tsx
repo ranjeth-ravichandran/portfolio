@@ -2,16 +2,16 @@ import { CIcon, GitHubIcon, GitIcon, JavaIcon, JavascriptIcon, LinkedInIcon, Pyt
 import { motion, Variants } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 // Define the type of the props the child component expects
 interface HomeContainerProps {
     framerMotion: Variants;  // Define that framer is a Variants object
 }
 
-import getConfig from 'next/config';
+
 export const HomeContainer: React.FC<HomeContainerProps> = ({ framerMotion }) => {
-    const { publicRuntimeConfig } = getConfig();
-    const { basePath } = publicRuntimeConfig;
+    const { basePath } = useRouter();
 
     return (
         <div className="Home">

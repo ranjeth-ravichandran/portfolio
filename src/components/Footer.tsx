@@ -1,16 +1,14 @@
 import { EmailIcon, GitHubIcon, LinkedInIcon, ResumeIcon } from "@/components/SvgIcons";
 import { motion, Variants } from "framer-motion";  // Import Framer Motion
+import { useRouter } from "next/router";
 
 // Define the type of the props the child component expects
 interface FooterContainerProps {
     framerMotion: Variants;  // Define that framer is a Variants object
 }
 
-import getConfig from 'next/config';
-
 export const FooterContainer: React.FC<FooterContainerProps> = ({ framerMotion }) => {
-    const { publicRuntimeConfig } = getConfig();
-    const { basePath } = publicRuntimeConfig;
+    const { basePath } = useRouter();
     return (
         <motion.div
             className="Footer"
