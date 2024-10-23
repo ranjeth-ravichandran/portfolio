@@ -3,11 +3,17 @@ import { motion, AnimatePresence, Variants } from "framer-motion";  // Import Fr
 import Image from "next/image";
 import { useState } from "react";
 
+import getConfig from 'next/config';
+
 // Define the type of the props the child component expects
 interface ProjectsContainerProps {
     framerMotion: Variants;  // Define that framer is a Variants object
     collageMotion: Variants;
 }
+
+
+const { publicRuntimeConfig } = getConfig();
+const { basePath } = publicRuntimeConfig;
 
 export const ProjectsContainer: React.FC<ProjectsContainerProps> = ({ framerMotion, collageMotion }) => {
 
@@ -98,16 +104,16 @@ export const ProjectsContainer: React.FC<ProjectsContainerProps> = ({ framerMoti
                             {/* Conditionally render the correct collage based on the project */}
                             {activeCollage === "educational-website" && (
                                 <div className="collage-images">
-                                    <Image src="/images/edu1.jpg" width={300} height={300} alt="Edu Image 1" />
-                                    <Image src="/images/edu2.jpg" width={300} height={300} alt="Edu Image 2" />
-                                    <Image src="/images/edu3.jpg" width={300} height={300} alt="Edu Image 3" />
+                                    <Image src={`${basePath}/images/edu1.jpg`} width={300} height={300} alt="Edu Image 1" />
+                                    <Image src={`${basePath}/images/edu2.jpg`} width={300} height={300} alt="Edu Image 2" />
+                                    <Image src={`${basePath}/images/edu3.jpg`} width={300} height={300} alt="Edu Image 3" />
                                 </div>
                             )}
                             {activeCollage === "prediction-salary" && (
                                 <div className="collage-images">
-                                    <Image src="/images/salary1.jpg" width={300} height={300} alt="Salary Image 1" />
-                                    <Image src="/images/salary2.jpg" width={300} height={300} alt="Salary Image 2" />
-                                    <Image src="/images/salary3.jpg" width={300} height={300} alt="Salary Image 3" />
+                                    <Image src={`${basePath}/images/salary1.jpg`} width={300} height={300} alt="Salary Image 1" />
+                                    <Image src={`${basePath}/images/salary2.jpg`} width={300} height={300} alt="Salary Image 2" />
+                                    <Image src={`${basePath}/images/salary3.jpg`} width={300} height={300} alt="Salary Image 3" />
                                 </div>
                             )}
                         </motion.div>

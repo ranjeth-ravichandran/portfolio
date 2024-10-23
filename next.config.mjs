@@ -1,8 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
 
+const nextConfig = {
+    basePath: '/final-portfolio',
+    assetPrefix: '/final-portfolio',
+    publicRuntimeConfig: {
+        basePath: '/final-portfolio',
+    },
     output: 'export',
-    distDir: 'dist',
     images: {
         unoptimized: true,
     },
