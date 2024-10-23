@@ -7,10 +7,10 @@ interface FooterContainerProps {
 }
 
 import getConfig from 'next/config';
-const { publicRuntimeConfig } = getConfig();
-const { basePath } = publicRuntimeConfig;
 
 export const FooterContainer: React.FC<FooterContainerProps> = ({ framerMotion }) => {
+    const { publicRuntimeConfig } = getConfig();
+    const { basePath } = publicRuntimeConfig;
     return (
         <motion.div
             className="Footer"

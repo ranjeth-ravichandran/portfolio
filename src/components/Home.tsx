@@ -9,10 +9,10 @@ interface HomeContainerProps {
 }
 
 import getConfig from 'next/config';
-const { publicRuntimeConfig } = getConfig();
-const { basePath } = publicRuntimeConfig;
-
 export const HomeContainer: React.FC<HomeContainerProps> = ({ framerMotion }) => {
+    const { publicRuntimeConfig } = getConfig();
+    const { basePath } = publicRuntimeConfig;
+
     return (
         <div className="Home">
             <motion.div

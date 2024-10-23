@@ -11,10 +11,10 @@ interface ProjectsContainerProps {
 }
 
 import getConfig from 'next/config';
-const { publicRuntimeConfig } = getConfig();
-const { basePath } = publicRuntimeConfig;
 
 export const ProjectsContainer: React.FC<ProjectsContainerProps> = ({ framerMotion, collageMotion }) => {
+    const { publicRuntimeConfig } = getConfig();
+    const { basePath } = publicRuntimeConfig;
 
     const [activeCollage, setActiveCollage] = useState("");
 
