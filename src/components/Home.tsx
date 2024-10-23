@@ -8,6 +8,10 @@ interface HomeContainerProps {
     framerMotion: Variants;  // Define that framer is a Variants object
 }
 
+import getConfig from 'next/config';
+const { publicRuntimeConfig } = getConfig();
+const { basePath } = publicRuntimeConfig;
+
 export const HomeContainer: React.FC<HomeContainerProps> = ({ framerMotion }) => {
     return (
         <div className="Home">
@@ -20,7 +24,7 @@ export const HomeContainer: React.FC<HomeContainerProps> = ({ framerMotion }) =>
             >
                 <Image
                     id="profile"
-                    src={"/images/profile.jpeg"}
+                    src={`${basePath}/images/profile.jpeg`}
                     alt="Profile Picture"
                     unoptimized
                     width={300}

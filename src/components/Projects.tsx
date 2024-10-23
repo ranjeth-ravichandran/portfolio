@@ -3,7 +3,6 @@ import { motion, AnimatePresence, Variants } from "framer-motion";  // Import Fr
 import Image from "next/image";
 import { useState } from "react";
 
-import getConfig from 'next/config';
 
 // Define the type of the props the child component expects
 interface ProjectsContainerProps {
@@ -11,7 +10,7 @@ interface ProjectsContainerProps {
     collageMotion: Variants;
 }
 
-
+import getConfig from 'next/config';
 const { publicRuntimeConfig } = getConfig();
 const { basePath } = publicRuntimeConfig;
 
