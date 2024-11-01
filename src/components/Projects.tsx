@@ -85,6 +85,31 @@ export const ProjectsContainer: React.FC<ProjectsContainerProps> = ({ framerMoti
                         </div>
                     </div>
                 </motion.div>
+
+                {/* Project 3 */}
+                {/* <motion.div
+                    className="project-container"
+                    variants={framerMotion}
+                    initial="hidden"
+                    animate="visible"
+                    custom={1.6} // Delay for the second project container
+                >
+                    <div className="project-information">
+                        <div className="project-header">
+                            <h1>League PokeDex</h1>
+                            <ImageIcon color="white" onClick={() => openCollage("prediction-salary")} />
+                        </div>
+                        <h2>API Manipulation</h2>
+                        <p>Built a classification model to automate salary categorization for new hires, reducing negotiation time.</p>
+                        <p>Utilised <b>Python</b>, <b>Pandas</b>, and <b>Scikit-learn</b> for <b>data processing</b>, <b>model development</b>, and <b>evaluation</b>. Improved decision-making efficiency by enabling accurate, data-driven salary predictions.</p>
+                        <div className="tags-container">
+                            <a>REACT</a>
+                            <a>API</a>
+                            <a>League of Legends</a>
+                            <a>Visualization</a>
+                        </div>
+                    </div>
+                </motion.div> */}
             </div>
 
             {/* Collage Modal with AnimatePresence */}
