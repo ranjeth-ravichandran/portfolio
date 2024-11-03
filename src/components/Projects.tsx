@@ -85,7 +85,7 @@ export const ProjectsContainer: React.FC<ProjectsContainerProps> = ({ framerMoti
                             }
                         }}
                     >
-                        {projects.map((project, index) => (
+                        {projects.map((project) => (
                             <SwiperSlide key={project.id}>
                                 <div
                                     className="project-container"
