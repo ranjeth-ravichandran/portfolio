@@ -21,4 +21,5 @@ bun dev
 Next.JS
 REACT
 Frame Motion
+Swiper (Carousel)
 ```

@@ -118,13 +118,11 @@ footer {
 #text-container {
   position: relative;
   height: inherit;
-  /* font-size: 1.05rem; */
   color: #DAEAFC;
 }
 
 #text-container h1 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  /* font-size: 2.5rem; */
   letter-spacing: 0.2rem;
   color: #7391A6;
   font-weight: 600;
@@ -197,7 +195,6 @@ footer {
   border-radius: 20px;
   padding: 12px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  /* font-size: 1.05rem; */
   color: #DAEAFC;
 }
 
@@ -215,8 +212,6 @@ footer {
   color: #DAEAFC;
   opacity: 0.7;
   text-align: center;
-  /* font-size: 1.2rem; */
-  /* font-weight: 900; */
 }
 
 .about-container a:hover {
@@ -231,13 +226,13 @@ footer {
 .project-container {
   display: flex;
   flex-direction: row;
-  min-height: 300px;
+  height: 270px;
+  min-height: fit-content;
   gap: 10px;
   background-color: #1B262C;
   border-radius: 20px;
   padding: 15px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  /* font-size: 1.05rem; */
   color: #DAEAFC;
 }
 
@@ -283,6 +278,44 @@ footer {
   background-color: #00000048;
   border: 2px solid rgba(0, 0, 0, 0.452);
   border-radius: 5px;
+}
+
+/* ----------------------------------------------------- */
+/* Swiper */
+
+.Projects {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.swiper {
+  width: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+}
+
+.swiper-pagination {
+  width: 100%;
+  max-width: 1356px;
+
+  padding: 5px;
+  background-color: #1B262C;
+  border-radius: 18px;
+  margin-top: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: relative !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /* ----------------------------------------------------- */
@@ -412,6 +445,10 @@ footer {
 @media (max-width: 900px) {
   .home-container img {
     display: none;
+  }
+
+  .project-container {
+    height: max-content;
   }
 }
 

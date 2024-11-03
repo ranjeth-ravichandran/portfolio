@@ -15,7 +15,7 @@ export const FooterContainer: React.FC<FooterContainerProps> = ({ framerMotion }
             variants={framerMotion}
             initial="hidden"
             animate="visible"
-            custom={2.1} // Delay for the footer-container
+            custom={1.6} // Delay for the footer-container
         >
             <div className="footer-container">
                 <div className="footer-contacts">
