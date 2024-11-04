@@ -45,10 +45,10 @@ export const ProjectsContainer: React.FC<ProjectsContainerProps> = ({ framerMoti
         },
         {
             id: "league-champion-selector",
-            title: "League PokeDex",
+            title: "League of Legends Champion Finder",
             subtitle: "API & UI/UX",
-            description: "Built a classification model to automate salary categorization for new hires, reducing negotiation time.",
-            details: "Utilised Python, Pandas, and Scikit-learn for data processing, model development, and evaluation. Improved decision-making efficiency by enabling accurate, data-driven salary predictions.",
+            description: "This web application helps users search for and discover champions from League of Legends by using the official League API.",
+            details: "It is built with React and JavaScript, providing real-time data on champions, including their abilities, roles, and stats. Users can easily find specific champions or explore new ones thanks to the simple search and filtering features.",
             tags: ["API", "UI", "UX", "Visualization"],
             images: [`${basePath}/images/edu1.jpg`, `${basePath}/images/salary2.jpg`, `${basePath}/images/salary3.jpg`]
         },
