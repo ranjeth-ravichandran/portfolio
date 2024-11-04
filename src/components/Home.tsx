@@ -32,8 +32,8 @@ export const HomeContainer: React.FC<HomeContainerProps> = ({ framerMotion }) =>
                 />
                 <div id="text-container">
                     <h1>RANJETH RAVICHANDRAN</h1>
-                    <h2>Software Developer</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum doloribus aliquam perspiciatis soluta. Sed eum saepe, sapiente repudiandae laboriosam deserunt.</p>
+                    <h2>Software Engineer</h2>
+                    <p>Aspiring Software Engineer | Innovative Problem Solver | Creating technology that instigates meaningful change</p>
                     <div id="languages-container">
                         <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer" style={{ color: '#F7DF1E' }}>
                             <JavascriptIcon color="yellow" />
