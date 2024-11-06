@@ -45,12 +45,13 @@ export const ProjectsContainer: React.FC<ProjectsContainerProps> = ({ framerMoti
         },
         {
             id: "league-champion-selector",
-            title: "League of Legends Champion Finder",
+            title: "League of Legends Statistics",
             subtitle: "API & UI/UX",
             description: "This web application helps users search for and discover champions from League of Legends by using the official League API.",
             details: "It is built with React and JavaScript, providing real-time data on champions, including their abilities, roles, and stats. Users can easily find specific champions or explore new ones thanks to the simple search and filtering features.",
             tags: ["API", "UI", "UX", "Visualization"],
-            images: [`${basePath}/images/edu1.jpg`, `${basePath}/images/salary2.jpg`, `${basePath}/images/salary3.jpg`]
+            images: [`${basePath}/images/edu1.jpg`, `${basePath}/images/salary2.jpg`, `${basePath}/images/salary3.jpg`],
+            link: "https://machuchu.github.io/league-statistics/",
         },
         // Add more projects as needed
     ];
@@ -74,7 +75,7 @@ export const ProjectsContainer: React.FC<ProjectsContainerProps> = ({ framerMoti
                         style={{ width: "100%" }}
                         autoplay={{
                             delay: 2500,
-                            disableOnInteraction: false,
+                            disableOnInteraction: true,
                         }}
                         breakpoints={{
                             1366: {
@@ -96,7 +97,19 @@ export const ProjectsContainer: React.FC<ProjectsContainerProps> = ({ framerMoti
                                             <h1>{project.title}</h1>
                                             <ImageIcon color="white" onClick={() => openCollage(project.id)} />
                                         </div>
-                                        <h2>{project.subtitle}</h2>
+                                        <div className="project-subheader">
+                                            <h2>{project.subtitle}</h2>
+                                            {project.link && (
+                                                <a
+                                                    href={project.link}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    className="project-link"
+                                                >
+                                                    Visit Project
+                                                </a>
+                                            )}
+                                        </div>
                                         <p>{project.description}</p>
                                         <p>{project.details}</p>
                                         <div className="tags-container">
