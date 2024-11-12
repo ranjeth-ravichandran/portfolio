@@ -32,7 +32,8 @@ export const ProjectsContainer: React.FC<ProjectsContainerProps> = ({ framerMoti
             description: "Developed an educational platform using React.js, showcasing integration with Open AI for personalised learning experiences.",
             details: "Focused on responsive design, user authentication, and real-time data interaction.",
             tags: ["C.R.U.D", "React", "Python", "Open AI", "Node JS", "Database", "Visualization", "Algorithms"],
-            images: [`${basePath}/images/edu1.jpg`, `${basePath}/images/edu2.jpg`, `${basePath}/images/edu3.jpg`]
+            images: [`${basePath}/images/edu1.jpg`, `${basePath}/images/edu2.jpg`, `${basePath}/images/edu3.jpg`],
+            link: "https://machuchu.github.io/educational-platform/",
         },
         {
             id: "prediction-salary",
