@@ -1,4 +1,4 @@
-import { CIcon, GitHubIcon, GitIcon, JavaIcon, JavascriptIcon, LinkedInIcon, PythonIcon, ReactIcon, ResumeIcon, SqlIcon } from "@/components/SvgIcons";
+import { CIcon, GitHubIcon, GitIcon, JavaIcon, JavascriptIcon, LinkedInIcon, NextJSIcon, PythonIcon, ReactIcon, ResumeIcon, SqlIcon } from "@/components/SvgIcons";
 import { motion, Variants } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
@@ -40,6 +40,9 @@ export const HomeContainer: React.FC<HomeContainerProps> = ({ framerMotion }) =>
                         </a>
                         <a href="https://reactjs.org/docs/getting-started.html" target="_blank" rel="noopener noreferrer">
                             <ReactIcon color="lightblue" />
+                        </a>
+                        <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">
+                            <NextJSIcon color="black" />
                         </a>
                         <a href="https://docs.python.org/3/" target="_blank" rel="noopener noreferrer">
                             <PythonIcon />
