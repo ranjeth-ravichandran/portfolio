@@ -141,10 +141,9 @@ export const ProjectsContainer: React.FC<ProjectsContainerProps> = ({
                                     <div className="project-information">
                                         <div className="project-header">
                                             <h1>{project.title}</h1>
-                                            <ImageIcon
-                                                color="white"
-                                                onClick={() => openCollage(project.id)}
-                                            />
+                                            {project.images && project.images.length > 0 && (
+                                                <ImageIcon color="white" onClick={() => openCollage(project.id)} />
+                                            )}
                                         </div>
                                         <div className="project-subheader">
                                             <h2>{project.subtitle}</h2>
