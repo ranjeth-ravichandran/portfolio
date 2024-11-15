@@ -57,7 +57,7 @@ export const ProjectsContainer: React.FC<ProjectsContainerProps> = ({
                 "Visualization",
                 "Algorithms",
             ],
-            link: "https://educational-platform-a9b2w8zrq-machuchus-projects.vercel.app/",
+            link: "https://educational-platform-ten.vercel.app/",
         },
         {
             id: "prediction-salary",
