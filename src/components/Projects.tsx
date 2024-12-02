@@ -8,6 +8,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
+import HoverVideoPlayer from "react-hover-video-player";
 
 // Define the Project interface for better TypeScript type-checking
 interface Project {
@@ -138,6 +139,28 @@ export const ProjectsContainer: React.FC<ProjectsContainerProps> = ({
                         {projects.map((project) => (
                             <SwiperSlide key={project.id}>
                                 <div className="project-container">
+                                    <HoverVideoPlayer
+                                        className="project-image"
+                                        videoSrc="mountain.mp4"
+                                        pausedOverlay={
+                                            <img
+                                                src="images/salary3.jpg"
+                                                alt=""
+                                                style={{
+                                                    // Make the image expand to cover the video's dimensions
+                                                    width: '100%',
+                                                    height: '100%',
+                                                    objectFit: 'cover',
+                                                    borderRadius: "18px",
+                                                }}
+                                            />
+                                        }
+                                        loadingOverlay={
+                                            <div className="loading-overlay">
+                                                <div className="loading-spinner" />
+                                            </div>
+                                        }
+                                    />
                                     <div className="project-information">
                                         <div className="project-header">
                                             <h1>{project.title}</h1>

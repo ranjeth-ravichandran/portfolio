@@ -226,8 +226,8 @@ footer {
 
 .project-container {
   display: flex;
-  flex-direction: row;
-  height: 270px;
+  flex-direction: column;
+  height: 470px;
   min-height: fit-content;
   gap: 10px;
   background-color: #1B262C;
@@ -300,6 +300,19 @@ footer {
   background-color: #00000048;
   border: 2px solid rgba(0, 0, 0, 0.452);
   border-radius: 5px;
+}
+
+.project-image {
+  width: inherit;
+  height: 200px;
+  border-radius: 18px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px;
+}
+
+.project-image video {
+  width: inherit;
+  height: inherit;
+  border-radius: 18px;
 }
 
 /* ----------------------------------------------------- */
@@ -474,7 +487,7 @@ footer {
   }
 }
 
-@media (max-width: 510px) {
+@media (max-width: 590px) {
   .home-container {
     flex-direction: column;
     height: auto;
