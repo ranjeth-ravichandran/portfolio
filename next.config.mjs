@@ -1,15 +1,18 @@
 /** @type {import('next').NextConfig} */
-
-/* Conditional statement so build can work in production and locally. */
 const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
+    // Use conditional basePath for local development and production
     basePath: isProd ? '/final-portfolio' : '',
-    assetPrefix: '/final-portfolio',
+
+    // Remove assetPrefix or set to empty string for local development
+    assetPrefix: isProd ? '/final-portfolio/' : '',
+
+    // Update publicRuntimeConfig
     publicRuntimeConfig: {
-        basePath: '/final-portfolio',
+        basePath: isProd ? '/final-portfolio' : '',
     },
-    output: 'export',
+
     images: {
         unoptimized: true,
     },
