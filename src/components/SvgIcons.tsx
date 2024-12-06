@@ -258,3 +258,36 @@ export const ImageIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ color, onCl
         </svg>
     );
 };
+
+// SVG icon for Star
+export const StarIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ color }) => {
+    return (
+        <svg className="svg-icon" fill={color} width="40px" height="40px" viewBox="0 0 1024 1024">
+            <path d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z" />
+        </svg>
+    );
+};
+
+
+// SVG icon for Controller
+export const ControllerIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ color }) => {
+    return (
+        <svg className={"svg-icon"} fill={color} width="40px" height="40px" viewBox="0 0 24 24">
+            <path d="M21.986 9.74a3.193 3.193 0 0 0-.008-.088A5.003 5.003 0 0 0 17 5H7a4.97 4.97 0 0 0-4.987 4.737c-.01.079-.013.161-.013.253v6.51c0 .925.373 1.828 1.022 2.476A3.524 3.524 0 0 0 5.5 20c1.8 0 2.504-1 3.5-3 .146-.292.992-2 3-2 1.996 0 2.853 1.707 3 2 1.004 2 1.7 3 3.5 3 .925 0 1.828-.373 2.476-1.022A3.524 3.524 0 0 0 22 16.5V10c0-.095-.004-.18-.014-.26zM7 12.031a2 2 0 1 1-.001-3.999A2 2 0 0 1 7 12.031zm10-5a1 1 0 1 1 0 2 1 1 0 1 1 0-2zm-2 4a1 1 0 1 1 0-2 1 1 0 1 1 0 2zm2 2a1 1 0 1 1 0-2 1 1 0 1 1 0 2zm2-2a1 1 0 1 1 0-2 1 1 0 1 1 0 2z" />
+        </svg>
+    );
+};
+
+// SVG icon for Plus
+export const PlusIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ color }) => {
+    return (
+        <svg className="svg-icon" width="40px" height="40px" viewBox="0 0 32 32">
+            <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+                <g transform="translate(-362.000000, -1037.000000)" fill={color}>
+                    <path d="M390,1049 L382,1049 L382,1041 C382,1038.79 380.209,1037 378,1037 C375.791,1037 374,1038.79 374,1041 L374,1049 L366,1049 C363.791,1049 362,1050.79 362,1053 C362,1055.21 363.791,1057 366,1057 L374,1057 L374,1065 C374,1067.21 375.791,1069 378,1069 C380.209,1069 382,1067.21 382,1065 L382,1057 L390,1057 C392.209,1057 394,1055.21 394,1053 C394,1050.79 392.209,1049 390,1049">
+                    </path>
+                </g>
+            </g>
+        </svg>
+    );
+};

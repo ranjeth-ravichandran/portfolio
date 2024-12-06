@@ -1,4 +1,4 @@
-import { ImageIcon } from "@/components/SvgIcons";
+import { ControllerIcon, ImageIcon, PlusIcon, StarIcon } from "@/components/SvgIcons";
 import { motion, AnimatePresence, Variants } from "framer-motion";
 import Image from "next/image";
 import { useState } from "react";
@@ -9,6 +9,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
 import HoverVideoPlayer from "react-hover-video-player";
+import Link from "next/link";
 
 // Define the Project interface for better TypeScript type-checking
 interface Project {
@@ -109,6 +110,20 @@ export const ProjectsContainer: React.FC<ProjectsContainerProps> = ({
     return (
         <>
             <div className="Projects">
+                <motion.div className="projects-side-panel"
+                    variants={framerMotion}
+                    initial="hidden"
+                    animate="visible"
+                    custom={0.8}
+                >
+                    <StarIcon color="white" />
+                    <Link href="/projects">
+                        <ControllerIcon color="white" />
+                    </Link>
+                    <Link href="/projects">
+                        <PlusIcon color="white" />
+                    </Link>
+                </motion.div>
                 <motion.div
                     className="swiper"
                     variants={framerMotion}
@@ -142,6 +157,7 @@ export const ProjectsContainer: React.FC<ProjectsContainerProps> = ({
                                     <HoverVideoPlayer
                                         className="project-image"
                                         videoSrc="mountain.mp4"
+
                                         pausedOverlay={
                                             <img
                                                 src="images/salary3.jpg"
@@ -154,11 +170,6 @@ export const ProjectsContainer: React.FC<ProjectsContainerProps> = ({
                                                     borderRadius: "18px",
                                                 }}
                                             />
-                                        }
-                                        loadingOverlay={
-                                            <div className="loading-overlay">
-                                                <div className="loading-spinner" />
-                                            </div>
                                         }
                                     />
                                     <div className="project-information">
