@@ -20,9 +20,9 @@ export default function ProjectsPage() {
     };
 
     const projects = [
-        { id: 1, title: 'Title 1', image: `${basePath}images/edu3.jpg` },
-        { id: 2, title: 'Title 2', image: `${basePath}images/edu3.jpg` },
-        { id: 3, title: 'Title 3', image: `${basePath}images/edu3.jpg` },
+        { id: 1, title: 'Title 1', image: `${basePath}/images/edu3.jpg` },
+        { id: 2, title: 'Title 2', image: `${basePath}/images/edu3.jpg` },
+        { id: 3, title: 'Title 3', image: `${basePath}/images/edu3.jpg` },
     ];
 
     return (
