@@ -2,8 +2,10 @@ import { HomeIcon } from "@/components/SvgIcons"
 import Link from "next/link";
 import { motion } from "framer-motion";
 import ProjectCard from "@/components/ProjectCard"
+import { useRouter } from "next/router";
 
 export default function ProjectsPage() {
+    const { basePath } = useRouter();
     // Animation variants for each container, without staggering
     const containerVariants = {
         hidden: { opacity: 0, y: 20 },
@@ -18,9 +20,9 @@ export default function ProjectsPage() {
     };
 
     const projects = [
-        { id: 1, title: 'Title 1', image: 'images/edu3.jpg' },
-        { id: 2, title: 'Title 2', image: 'images/edu3.jpg' },
-        { id: 3, title: 'Title 3', image: 'images/edu3.jpg' },
+        { id: 1, title: 'Title 1', image: `${basePath}images/edu3.jpg` },
+        { id: 2, title: 'Title 2', image: `${basePath}images/edu3.jpg` },
+        { id: 3, title: 'Title 3', image: `${basePath}images/edu3.jpg` },
     ];
 
     return (

@@ -2,7 +2,6 @@ import { ControllerIcon, ImageIcon, PlusIcon, StarIcon } from "@/components/SvgI
 import { motion, AnimatePresence, Variants } from "framer-motion";
 import Image from "next/image";
 import { useState } from "react";
-import getConfig from "next/config";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -10,6 +9,7 @@ import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
 import HoverVideoPlayer from "react-hover-video-player";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 // Define the Project interface for better TypeScript type-checking
 interface Project {
@@ -32,8 +32,7 @@ export const ProjectsContainer: React.FC<ProjectsContainerProps> = ({
     framerMotion,
     collageMotion,
 }) => {
-    const { publicRuntimeConfig } = getConfig();
-    const { basePath } = publicRuntimeConfig;
+    const { basePath } = useRouter();
 
     const [activeCollage, setActiveCollage] = useState<string>("");
 
@@ -156,11 +155,13 @@ export const ProjectsContainer: React.FC<ProjectsContainerProps> = ({
                                 <div className="project-container">
                                     <HoverVideoPlayer
                                         className="project-image"
-                                        videoSrc="mountain.mp4"
+                                        videoSrc={`${basePath}/mountain.mp4`}
 
                                         pausedOverlay={
-                                            <img
-                                                src="images/salary3.jpg"
+                                            <Image
+                                                width={500}
+                                                height={500}
+                                                src={`${basePath}/images/salary3.jpg`}
                                                 alt=""
                                                 style={{
                                                     // Make the image expand to cover the video's dimensions
