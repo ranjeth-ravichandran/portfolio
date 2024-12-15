@@ -77,21 +77,32 @@ export const ProjectsContainer: React.FC<ProjectsContainerProps> = ({
                 "Prediction",
                 "Visualization",
             ],
-            images: [
+            /* images: [
                 `${basePath}/images/salary1.jpg`,
                 `${basePath}/images/salary2.jpg`,
                 `${basePath}/images/salary3.jpg`,
-            ],
+            ], */
+        },
+        {
+            id: "fitness-helper",
+            title: "Data-Driven Fitness Solution",
+            subtitle: "Unlock Your Fitness Potential",
+            description:
+                "Application which leverages data visualisation to optimise fitness strategies, providing personalised recommendations for enhanced performance.",
+            details:
+                "Built with React and JavaScript, this tool analyzes Excel data to deliver actionable insights. Users can explore intuitive dashboards, identify trends and patterns, and refine their techniques with expert guidance.",
+            tags: ["API", "UI", "UX", "Data Visualisation", "MongoDB", "Node.js"],
+            /* link: "https://machuchu.github.io/league-statistics/", */
         },
         {
             id: "league-champion-selector",
-            title: "League of Legends Statistics",
+            title: "League of Legends Profiler",
             subtitle: "API & UI/UX",
             description:
-                "This web application helps users search for and discover champions from League of Legends by using the official League API.",
+                "This web application helps users optimise game-play for League of Legends by using the official League API.",
             details:
                 "It is built with React and JavaScript, providing real-time data on champions, including their abilities, roles, and stats. Users can easily find specific champions or explore new ones thanks to the simple search and filtering features.",
-            tags: ["API", "UI", "UX", "Visualization"],
+            tags: ["API", "UI", "UX", "Data Visualisation", "MongoDB", "Node.js"],
             link: "https://machuchu.github.io/league-statistics/",
         },
         {
@@ -102,7 +113,7 @@ export const ProjectsContainer: React.FC<ProjectsContainerProps> = ({
                 "This is a 3D Gym Environment filled with interactive equipment educating and showcasing each equipment.",
             details: "A Three.js web application built upon React.",
             tags: ["3D", "UI", "UX", "Modeling", "Environment", "Fitness"],
-            link: "https://machuchu.github.io/interactive-gym/",
+            /* link: "https://machuchu.github.io/interactive-gym/", */
         },
     ];
 
