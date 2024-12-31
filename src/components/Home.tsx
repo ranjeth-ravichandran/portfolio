@@ -68,10 +68,10 @@ export const HomeContainer: React.FC<HomeContainerProps> = ({ framerMotion }) =>
                     >
                         <ResumeIcon color="#fff" />
                     </a>
-                    <a href="https://github.com/MaChuChu" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/ranjeth-ravichandran" target="_blank" rel="noopener noreferrer">
                         <GitHubIcon color="#fff" />
                     </a>
-                    <a href="https://www.linkedin.com/in/ranjeth-ravichandran-78a8542a8/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/ranjeth-ravichandran/" target="_blank" rel="noopener noreferrer">
                         <LinkedInIcon color="#fff" />
                     </a>
                 </div>
