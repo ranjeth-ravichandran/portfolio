@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Educational Platform",
+    "image": "/images/education-home.png",
+    "tag": "Education",
+    "description": "An interactive platform offering a wide variety of courses, quizzes, and certifications.",
+    "details": "LearnHub includes advanced analytics for teachers, personalized learning paths for students, and support for multiple languages.",
+    "link": "https://educational-platform-ten.vercel.app/"
+  },
+  {
+    "title": "League Profiler",
+    "image": "/images/league-home.png",
+    "tag": "Gaming",
+    "description": "A platform for analyzing and tracking player statistics in competitive leagues.",
+    "details": "LeagueStats provides real-time data, performance analytics, and insights for team strategy."
+  },
+  {
+    "title": "Fitness Tracker",
+    "image": "/images/fitness-home.jpg",
+    "tag": "Fitness",
+    "description": "A comprehensive app to monitor fitness activities, track goals, and measure progress.",
+    "details": "FitTrack supports activity tracking, nutrition plans, and integrates with wearables like smartwatches."
+  },
+  {
+    "title": "Predication on Salary",
+    "image": null,
+    "tag": "Machine Learning",
+    "description": "Built a classification model to automate salary categorization for new hires, reducing negotiation time.",
+    "details": "Utilised Python, Pandas, and Scikit-learn for data processing, model development, and evaluation. Improved decision-making efficiency by enabling accurate, data-driven salary predictions."
+  }
+  
+]

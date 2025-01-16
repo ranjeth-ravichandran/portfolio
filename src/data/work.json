@@ -1,0 +1,26 @@
+[
+    {
+        "company": "Greggs",
+        "image": "/images/greggs.png",
+        "link": "",
+        "title": "Team Member",
+        "location": "Ealing, London",
+        "date": "02/2023 - 12/2024"
+    },
+    {
+        "company": "Oracle",
+        "image": "/images/oracle.png",
+        "link": "",
+        "title": "Observational Internship",
+        "location": "Reading, United Kingdom",
+        "date": "03/2021 - 04/2021"
+    },
+    {
+        "company": "Showcase AV",
+        "image": "/images/showcase.jpg",
+        "link": "",
+        "title": "Event Contractor",
+        "location": "Southall, London",
+        "date": "02/2019 - 07/2020"
+    }
+]
