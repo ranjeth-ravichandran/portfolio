@@ -1,7 +1,7 @@
 [
   {
     "title": "Educational Platform",
-    "image": "/images/education-home.png",
+    "image": "./images/education-home.png",
     "tag": "Education",
     "description": "An interactive platform offering a wide variety of courses, quizzes, and certifications.",
     "details": "LearnHub includes advanced analytics for teachers, personalized learning paths for students, and support for multiple languages.",
@@ -9,14 +9,14 @@
   },
   {
     "title": "League Profiler",
-    "image": "/images/league-home.png",
+    "image": "./images/league-home.png",
     "tag": "Gaming",
     "description": "A platform for analyzing and tracking player statistics in competitive leagues.",
     "details": "LeagueStats provides real-time data, performance analytics, and insights for team strategy."
   },
   {
     "title": "Fitness Tracker",
-    "image": "/images/fitness-home.jpg",
+    "image": "./images/fitness-home.jpg",
     "tag": "Fitness",
     "description": "A comprehensive app to monitor fitness activities, track goals, and measure progress.",
     "details": "FitTrack supports activity tracking, nutrition plans, and integrates with wearables like smartwatches."

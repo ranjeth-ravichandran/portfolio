@@ -1,7 +1,7 @@
 [
     {
         "company": "Greggs",
-        "image": "/images/greggs.png",
+        "image": "./images/greggs.png",
         "link": "",
         "title": "Team Member",
         "location": "Ealing, London",
@@ -9,7 +9,7 @@
     },
     {
         "company": "Oracle",
-        "image": "/images/oracle.png",
+        "image": "./images/oracle.png",
         "link": "",
         "title": "Observational Internship",
         "location": "Reading, United Kingdom",
@@ -17,7 +17,7 @@
     },
     {
         "company": "Showcase AV",
-        "image": "/images/showcase.jpg",
+        "image": "./images/showcase.jpg",
         "link": "",
         "title": "Event Contractor",
         "location": "Southall, London",

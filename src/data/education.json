@@ -1,20 +1,20 @@
 [
     {
       "title": "University of Reading",
-      "image": "/images/uor.jpg",
+      "image": "./images/uor.jpg",
       "link": "https://www.reading.ac.uk/",
       "course": "BSc in Computer Science",
       "grades": "Grade  : 1st"
     },
     {
       "title": "Dormers Wells High School - Sixth Form",
-      "image": "/images/dormers.jpg",
+      "image": "./images/dormers.jpg",
       "link": "https://www.dwhs.co.uk/",
       "course": "A Levels: [Maths, Physics, Computer Science]"
     },
     {
       "title": "Dormers Wells High School",
-      "image": "/images/dormers.jpg",
+      "image": "./images/dormers.jpg",
       "link": "https://www.dwhs.co.uk/",
       "course": "GCSE's: [Maths, English, Physics, Biology, Chemistry, Sociology, Computer Science]"
     }
