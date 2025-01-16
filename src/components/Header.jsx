@@ -6,7 +6,7 @@ export default function Header() {
             <div className="left">
                 <Image src={"./images/profile.jpg"} width={100} height={100} />
                 <a href="resume.pdf" target="_blank">
-                    <Image src={"/svg/folder.svg"} alt="Folder" width={32} height={32}/>
+                    <Image src={"./svg/folder.svg"} alt="Folder" width={32} height={32}/>
                     <button className="resume-button">Resume</button>
                 </a>
             </div>
