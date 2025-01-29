@@ -12,8 +12,8 @@ export default function Header() {
             </div>
             <div className="right">
             <h1>Ranjeth Ravichandran</h1>
-            <p>Recent Computer Science Graduate</p>
-            <p>Aspiring Sfotware Engineer</p>
+            <p>First-Class Computer Science Graduate</p>
+            <p>Looking for Graduate role in Software Enginering / Data Science</p>
             </div>
         </div>
     );
