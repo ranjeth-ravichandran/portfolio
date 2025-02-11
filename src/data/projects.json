@@ -4,29 +4,36 @@
     "image": "./images/education-home.png",
     "tag": "Education",
     "description": "An interactive platform offering a wide variety of courses, quizzes, and certifications.",
-    "details": "LearnHub includes advanced analytics for teachers, personalized learning paths for students, and support for multiple languages.",
+    "details": "Educational Platform includes personalised learning paths for students.",
     "link": "https://educational-platform-ten.vercel.app/"
   },
   {
     "title": "League Profiler",
     "image": "./images/league-home.png",
     "tag": "Gaming",
-    "description": "A platform for analyzing and tracking player statistics in competitive leagues.",
-    "details": "LeagueStats provides real-time data, performance analytics, and insights for team strategy."
+    "description": "A platform for analysing and tracking player statistics in competitive game league of legends.",
+    "details": "League Profiler provides real-time data, performance analytics, and insights for personal and team improvements."
   },
   {
     "title": "Fitness Tracker",
     "image": "./images/fitness-home.jpg",
     "tag": "Fitness",
     "description": "A comprehensive app to monitor fitness activities, track goals, and measure progress.",
-    "details": "FitTrack supports activity tracking, nutrition plans, and integrates with wearables like smartwatches."
+    "details": "Fitness Tracker was built based on personal furstrations with analytics hidden behind paywalls, and to imrpove my coding skills, I retrieved data from my personal scale which has information on weight, muscle mass, etc. this data was used to create statistical graphs for this website idea and to imrpove personal health goals."
   },
   {
     "title": "Predication on Salary",
     "image": null,
     "tag": "Machine Learning",
-    "description": "Built a classification model to automate salary categorization for new hires, reducing negotiation time.",
+    "description": "Built a classification model to automate salary categorisation for new hires, reducing negotiation time.",
     "details": "Utilised Python, Pandas, and Scikit-learn for data processing, model development, and evaluation. Improved decision-making efficiency by enabling accurate, data-driven salary predictions."
+  },
+  {
+    "title": "Personal Dashboard",
+    "image": "./images/dashboard.png",
+    "tag": "App Development",
+    "description": "(Work in Progress) Creating and Designing a personal dashboard using 'electron' which is browser based technology used to create desktop applications using web technologies.",
+    "details": "By utilising front-end and back-end technologies which I am profcicient in and Electron a package which allows to create desktop applications with web technologies, I am able to create a personal application which various features to suit my needs such as Daily Weather Reports, Motivational Quote Generation and much more."
   }
   
 ]
