@@ -33,7 +33,7 @@
     "image": "./images/dashboard.png",
     "tag": "App Development",
     "description": "(Work in Progress) Creating and Designing a personal dashboard using 'electron' which is browser based technology used to create desktop applications using web technologies.",
-    "details": "By utilising front-end and back-end technologies which I am profcicient in and Electron a package which allows to create desktop applications with web technologies, I am able to create a personal application which various features to suit my needs such as Daily Weather Reports, Motivational Quote Generation and much more."
+    "details": "By utilising front-end and back-end technologies which I am profcicient in and Electron a package which allows to create desktop applications with web technologies, I am able to create a personal application which various features to suit my needs such as Daily Weather Reports, Motivational Quote Generation and much more. Used Open Weather API to obtain weather data, and Chart.js to create graphs with the weather data."
   }
   
 ]
