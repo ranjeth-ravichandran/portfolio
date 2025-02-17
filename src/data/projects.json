@@ -23,10 +23,11 @@
   },
   {
     "title": "Predication on Salary",
-    "image": null,
+    "image": "./images/datasciencepython.png",
     "tag": "Machine Learning",
     "description": "Built a classification model to automate salary categorisation for new hires, reducing negotiation time.",
-    "details": "Utilised Python, Pandas, and Scikit-learn for data processing, model development, and evaluation. Improved decision-making efficiency by enabling accurate, data-driven salary predictions."
+    "details": "Utilised Python, Pandas, and Scikit-learn for data processing, model development, and evaluation. Improved decision-making efficiency by enabling accurate, data-driven salary predictions.",
+    "html": "./pdf/Python_CW2.Final.html"
   },
   {
     "title": "Personal Dashboard",
@@ -34,6 +35,72 @@
     "tag": "App Development",
     "description": "(Work in Progress) Creating and Designing a personal dashboard using 'electron' which is browser based technology used to create desktop applications using web technologies.",
     "details": "By utilising front-end and back-end technologies which I am profcicient in and Electron a package which allows to create desktop applications with web technologies, I am able to create a personal application which various features to suit my needs such as Daily Weather Reports, Motivational Quote Generation and much more. Used Open Weather API to obtain weather data, and Chart.js to create graphs with the weather data."
+  },
+  {
+    "title": "Snake on Android",
+    "image": "./images/snake_android.png",
+    "tag": "Android",
+    "description": "Create a replica of Snake with additional features built on Android Studio, this project uses Kotlin/Java.",
+    "details": "",
+    "pdf": "./pdf/CS2PJ16_Android.pdf"
+  },
+  {
+    "title": "Drone Simulator",
+    "image": "./images/dronesim.png",
+    "tag": "Java",
+    "description": "While improving proficiency in Java and Object Oritentied Programming, I created a drone simualtor which `Mario` inspired Map creation.",
+    "details": "",
+    "pdf": "./pdf/CS2PJ20_CW.pdf"
+  },
+  {
+    "title": "VR Game - Unity",
+    "image": "./images/vr.png",
+    "tag": "Unity C#",
+    "description": "Group Project to create a 3D unity game for VR, the chosen topic was Animals and revolved the game aspects based on the topic which includes various biomes and quizes with user interactions in each biome.",
+    "details": "",
+    "pdf": "./pdf/CS3VR16_29003671_IndividualReport.pdf"
+  },
+  {
+    "title": "Blockchain",
+    "image": null,
+    "tag": "Blockchain",
+    "description": "",
+    "details": ""
+  },
+  {
+    "title": "Noise Reduction",
+    "image": null,
+    "tag": "Image Analysis",
+    "description": "",
+    "details": ""
+  },
+  {
+    "title": "Compression & Decompression",
+    "image": null,
+    "tag": "Image Analysis",
+    "description": "",
+    "details": ""
+  },
+  {
+    "title": "KNIME",
+    "image": null,
+    "tag": "Data Science",
+    "description": "",
+    "details": ""
+  },
+  {
+    "title": "Water Potability with AI",
+    "image": null,
+    "tag": "Artificial Inteligence",
+    "description": "",
+    "details": ""
+  },
+  {
+    "title": "Sales Storyboard with Tableau",
+    "image": null,
+    "tag": "Tableau",
+    "description": "",
+    "details": ""
   }
   
 ]

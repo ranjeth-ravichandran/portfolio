@@ -15,14 +15,21 @@ export default function ProjectDetails({ project, onClose }) {
         </a>
         <h3>{project.title}</h3>
         </div>
-        {project.image && (
+        {project.pdf ? (
+          <object data={project.pdf} type="application/pdf" width={"100%"} height="800px"/>
+        ) : (
+          <>
+            {project.image && (
               <img
                 src={project.image}
                 alt={project.title}
                 className="project-details-image"
               />
-            )}  
-        <p className="project-details-description">{project.details}</p>
+            )}
+            <p className="project-details-description">{project.details}</p>
+          </>
+        )}
+
       </div>
     </div>
   );
