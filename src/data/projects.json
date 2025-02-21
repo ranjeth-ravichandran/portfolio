@@ -15,26 +15,26 @@
     "details": "League Profiler provides real-time data, performance analytics, and insights for personal and team improvements."
   },
   {
-    "title": "Fitness Tracker",
-    "image": "./images/fitness-home.jpg",
-    "tag": "Fitness",
-    "description": "A comprehensive app to monitor fitness activities, track goals, and measure progress.",
-    "details": "Fitness Tracker was built based on personal furstrations with analytics hidden behind paywalls, and to imrpove my coding skills, I retrieved data from my personal scale which has information on weight, muscle mass, etc. this data was used to create statistical graphs for this website idea and to imrpove personal health goals."
+    "title": "Personal Dashboard",
+    "image": "./images/dashboard-2.png",
+    "tag": "App Development",
+    "description": "(Work in Progress) Creating and Designing a personal dashboard using 'electron' which is browser based technology used to create desktop applications using web technologies.",
+    "details": "By utilising front-end and back-end technologies which I am profcicient in and Electron a package which allows to create desktop applications with web technologies, I am able to create a personal application which various features to suit my needs such as Daily Weather Reports, Motivational Quote Generation and much more. Used Open Weather API to obtain weather data, and Chart.js to create graphs with the weather data.",
+    "html": "dashboard"
   },
   {
     "title": "Predication on Salary",
     "image": "./images/datasciencepython.png",
     "tag": "Machine Learning",
     "description": "Built a classification model to automate salary categorisation for new hires, reducing negotiation time.",
-    "details": "Utilised Python, Pandas, and Scikit-learn for data processing, model development, and evaluation. Improved decision-making efficiency by enabling accurate, data-driven salary predictions.",
-    "html": "./pdf/Python_CW2.Final.html"
+    "details": "Utilised Python, Pandas, and Scikit-learn for data processing, model development, and evaluation. Improved decision-making efficiency by enabling accurate, data-driven salary predictions."
   },
   {
-    "title": "Personal Dashboard",
-    "image": "./images/dashboard2.png",
-    "tag": "App Development",
-    "description": "(Work in Progress) Creating and Designing a personal dashboard using 'electron' which is browser based technology used to create desktop applications using web technologies.",
-    "details": "By utilising front-end and back-end technologies which I am profcicient in and Electron a package which allows to create desktop applications with web technologies, I am able to create a personal application which various features to suit my needs such as Daily Weather Reports, Motivational Quote Generation and much more. Used Open Weather API to obtain weather data, and Chart.js to create graphs with the weather data."
+    "title": "Fitness Tracker",
+    "image": "./images/fitness-home.jpg",
+    "tag": "Fitness",
+    "description": "A comprehensive app to monitor fitness activities, track goals, and measure progress.",
+    "details": "Fitness Tracker was built based on personal furstrations with analytics hidden behind paywalls, and to imrpove my coding skills, I retrieved data from my personal scale which has information on weight, muscle mass, etc. this data was used to create statistical graphs for this website idea and to imrpove personal health goals."
   },
   {
     "title": "Snake on Android",

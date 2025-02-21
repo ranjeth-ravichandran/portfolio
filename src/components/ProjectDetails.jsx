@@ -1,5 +1,18 @@
+
+
+import Dashboard from "./projects/Dashboard";
+/* import AnotherProject from "./projects/AnotherProject"; */
+
+const projectComponents = {
+  "dashboard": Dashboard,
+  /* "anotherProject": AnotherProject, */
+};
+
+
 export default function ProjectDetails({ project, onClose }) {
   if (!project) return null;
+
+  const ProjectComponent = projectComponents[project.html];
 
   return (
     <div className="project-details-overlay">
@@ -16,7 +29,9 @@ export default function ProjectDetails({ project, onClose }) {
         <h3>{project.title}</h3>
         </div>
         {project.pdf ? (
-          <object data={project.pdf} type="application/pdf" width={"100%"} height="800px"/>
+          <object data={project.pdf} type="application/pdf" width="100%" height="800px" />
+        ) : project.html ? (
+          <ProjectComponent data={project}/>
         ) : (
           <>
             {project.image && (

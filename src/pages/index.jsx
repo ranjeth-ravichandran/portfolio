@@ -8,6 +8,8 @@ import Work from "@/components/Work";
 import workData from "@/data/work.json";
 import Languages from "@/components/Languages";
 import languagesData from "@/data/languages.json";
+import Certificates from "../components/Certificates";
+import certificateData from "../data/certificates.json";
 
 export default function Home() {
 
@@ -19,8 +21,8 @@ export default function Home() {
                 <Work data={workData}/>
             </div>
             <Languages data={languagesData} />
+            <Certificates data={certificateData}/>
             <Projects data={projectsData} />
-            
         </div>
     );
 }
