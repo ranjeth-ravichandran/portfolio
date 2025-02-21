@@ -323,9 +323,10 @@ main {
 .certificates-container {
   display: flex;
   flex-direction: row;
-  gap: 20px;
   justify-content: center;
   text-align: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .cert {
@@ -427,6 +428,11 @@ main {
   .project-details img{
     width: inherit;
     margin: 0 auto;
+  }
+
+  .cert-image-overlay-content img {
+    width: 100%;
+    height: auto;
   }
 }
 
