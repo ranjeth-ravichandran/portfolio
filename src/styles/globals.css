@@ -3,7 +3,7 @@
 :root {
   --light-shade: #F6F3EF;
   --light-accent: #A59F9E;
-  --main-color: #F37324; 
+  --main-color: #F37324;
   --dark-accent: #93785C;
   --dark-shade: #262022;
 }
@@ -17,12 +17,14 @@
   text-decoration: none;
 }
 
-a, a:active {
+a,
+a:active {
   color: var(--dark-shade);
   text-decoration: none;
 }
 
-html, body {
+html,
+body {
   max-width: 100vw;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   background-color: var(--dark-shade);
@@ -155,7 +157,8 @@ main {
 .project-card {
   max-width: 300px;
   width: 100%;
-  background: rgb(221, 216, 216);;
+  background: rgb(221, 216, 216);
+  ;
   padding: 16px;
   border-radius: 8px;
   cursor: pointer;
@@ -256,7 +259,8 @@ main {
   background: #e04842;
 }
 
-.education-container, .work-container {
+.education-container,
+.work-container {
   width: 50%;
   gap: 5px;
 }
@@ -372,6 +376,19 @@ main {
   background: #e04842;
 }
 
+.dashboard-images {
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.dashboard-images img {
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
 @media screen and (max-width: 768px) {
   .header-container img {
     width: 120px;
@@ -387,7 +404,8 @@ main {
     padding: 8px 20px;
   }
 
-  .basic-container-3, .basic-container-2 {
+  .basic-container-3,
+  .basic-container-2 {
     flex-direction: column;
   }
 
@@ -425,7 +443,7 @@ main {
     object-fit: cover;
   }
 
-  .project-details img{
+  .project-details img {
     width: inherit;
     margin: 0 auto;
   }
