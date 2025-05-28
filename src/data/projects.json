@@ -15,12 +15,28 @@
     "details": "League Profiler provides real-time data, performance analytics, and insights for personal and team improvements."
   },
   {
+    "title": "Real-time Messaging",
+    "image": "./images/real-time-messaging.png",
+    "tag": "WebSockets",
+    "description": "An application which utilises WebSockets built within the browser for persistent connection.",
+    "details": "Creating a website to understand networking with web sockets and to create a chat application to message users in real-time. Not Complete however basic functionalities are implemented.",
+    "link": "https://real-time-messaging-gray.vercel.app/"
+  },
+  {
     "title": "Personal Dashboard",
     "image": "./images/dashboard-2.png",
     "tag": "App Development",
     "description": "(Work in Progress) Creating and Designing a personal dashboard using 'electron' which is browser based technology used to create desktop applications using web technologies.",
-    "details": "By utilising front-end and back-end technologies which I am profcicient in and Electron a package which allows to create desktop applications with web technologies, I am able to create a personal application which various features to suit my needs such as Daily Weather Reports, Motivational Quote Generation and much more. Used Open Weather API to obtain weather data, and Chart.js to create graphs with the weather data.",
+    "details": "By utilising front-end and back-end technologies which I am proficient in and Electron a package which allows to create desktop applications with web technologies, I am able to create a personal application which various features to suit my needs such as Daily Weather Reports, Motivational Quote Generation and much more. Used Open Weather API to obtain weather data, and Chart.js to create graphs with the weather data.",
     "html": "dashboard"
+  },
+  {
+    "title": "Anime Tracker",
+    "image": "./images/anime-tracker.png",
+    "tag": "REST API",
+    "description": "Anime & Manga Tracker website using GET requests through REST API.",
+    "details": "Built an Anime & Manga tracker website which displays content based on search queries, this data is displayed with an associated ANIME API.",
+    "link": "https://real-time-messaging-gray.vercel.app/"
   },
   {
     "title": "Predication on Salary",
@@ -34,7 +50,7 @@
     "image": "./images/fitness-home.jpg",
     "tag": "Fitness",
     "description": "A comprehensive app to monitor fitness activities, track goals, and measure progress.",
-    "details": "Fitness Tracker was built based on personal furstrations with analytics hidden behind paywalls, and to imrpove my coding skills, I retrieved data from my personal scale which has information on weight, muscle mass, etc. this data was used to create statistical graphs for this website idea and to imrpove personal health goals."
+    "details": "Fitness Tracker was built based on personal frustrations with analytics hidden behind paywalls, and to imrpove my coding skills, I retrieved data from my personal scale which has information on weight, muscle mass, etc. this data was used to create statistical graphs for this website idea and to imrpove personal health goals."
   },
   {
     "title": "Snake on Android",
@@ -102,5 +118,4 @@
     "description": "",
     "details": ""
   }
-  
 ]
