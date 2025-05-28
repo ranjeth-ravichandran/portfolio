@@ -105,6 +105,21 @@ main {
   text-transform: uppercase;
 }
 
+#links {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+#resume-link {
+  flex-grow: 1;
+}
+
+#github-link {
+  max-width: 40px;
+}
+
 .left a:hover {
   cursor: pointer;
   background: var(--main-color);

@@ -35,8 +35,7 @@
     "image": "./images/anime-tracker.png",
     "tag": "REST API",
     "description": "Anime & Manga Tracker website using GET requests through REST API.",
-    "details": "Built an Anime & Manga tracker website which displays content based on search queries, this data is displayed with an associated ANIME API.",
-    "link": "https://real-time-messaging-gray.vercel.app/"
+    "details": "Built an Anime & Manga tracker website which displays content based on search queries, this data is displayed with an associated ANIME API."
   },
   {
     "title": "Predication on Salary",
