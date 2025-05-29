@@ -17,8 +17,7 @@ export default function Header() {
             </div>
             <div className="right">
                 <h1>Ranjeth Ravichandran</h1>
-                <p>First-Class Computer Science Graduate</p>
-                <p>Looking for Graduate role in Software Enginering / Data Science</p>
+                <p id="summary">I am a driven individual who has a knack for programming and analytical problem solving, I have garnered technical experience through personal projects as well as tackling certifications & courses alongside my degree in Computer Science. I am seeking an entry level position within the tech industry and continue to learn and improve my skills.</p>
             </div>
         </div>
     );

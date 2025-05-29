@@ -141,6 +141,10 @@ main {
   font-weight: 800;
 }
 
+.right #summary {
+  color: #262022;
+}
+
 .header-container h1 {
   font-family: "Roboto Slab", "Times New Roman", serif;
   font-size: 3.8rem;
