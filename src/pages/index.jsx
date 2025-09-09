@@ -10,6 +10,7 @@ import Languages from "@/components/Languages";
 import languagesData from "@/data/languages.json";
 import Certificates from "../components/Certificates";
 import certificateData from "../data/certificates.json";
+import Games from "@/components/Games";
 
 export default function Home() {
 
@@ -23,6 +24,7 @@ export default function Home() {
             <Languages data={languagesData} />
             <Certificates data={certificateData}/>
             <Projects data={projectsData} />
+            <Games />
         </div>
     );
 }

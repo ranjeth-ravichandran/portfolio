@@ -408,6 +408,24 @@ main {
   border: 1px solid black;
 }
 
+
+
+/* GAMES SECTION */
+
+/* GAMES SECTION */
+.games-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;      /* make container span full width */
+  margin: 0 auto;   /* auto-center horizontally */
+}
+
+.games-container iframe {
+  border-radius: 8px;
+}
+
+
 @media screen and (max-width: 768px) {
   .header-container img {
     width: 120px;
