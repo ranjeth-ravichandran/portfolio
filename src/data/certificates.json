@@ -6,5 +6,9 @@
     {
         "title": "Commonwealth Bank",
         "image": "./certificates/commenwealth_bank.png"
+    },
+    {
+        "title": "Couch 2 Coder 2025",
+        "image": "./certificates/couch2coder2025.png"
     }
 ]
